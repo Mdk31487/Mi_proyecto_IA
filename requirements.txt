@@ -1,0 +1,35 @@
+# Framework principal
+Django>=4.0,<5.0
+
+# Base de datos y migraciones
+sqlparse>=0.4.2
+alembic
+
+# NLP y análisis de sentimientos
+nltk
+spacy
+textblob
+transformers
+torch
+
+# Utilidades IA / Machine Learning
+scikit-learn
+pandas
+numpy
+joblib
+
+# Serialización y APIs
+djangorestframework
+django-cors-headers
+
+# Frontend y plantillas
+jinja2
+
+# Otros útiles
+requests
+python-dotenv
+gunicorn
+
+# Driver de base de datos (elige solo uno según tu caso)
+# sqlite3 ya viene por defecto, pero si usas PostgreSQL descomenta la línea de abajo
+# psycopg2-binary

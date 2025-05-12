@@ -1,0 +1,63 @@
+{
+    "conceptos_basicos": {
+        "tipos_de_datos": [
+            "int", "float", "double", "char", "bool", "void",
+            "string", "array", "vector", "pointer", "reference"
+        ],
+        "estructuras_control": [
+            "if-else", "switch", "for", "while", "do-while",
+            "break", "continue", "return"
+        ],
+        "funciones": {
+            "declaracion": "tipo_retorno nombre_funcion(parametros) { cuerpo }",
+            "ejemplos": [
+                "int suma(int a, int b) { return a + b; }",
+                "void imprimir(const string& mensaje) { cout << mensaje << endl; }"
+            ]
+        }
+    },
+    "conceptos_avanzados": {
+        "programacion_orientada_objetos": {
+            "clases": "structura que encapsula datos y funciones",
+            "herencia": "mecanismo de reutilización de código",
+            "polimorfismo": "capacidad de objetos de diferentes clases de responder al mismo mensaje",
+            "encapsulamiento": "ocultamiento de detalles de implementación"
+        },
+        "templates": {
+            "definicion": "mecanismo para programación genérica",
+            "ejemplo": "template<typename T> T max(T a, T b) { return (a > b) ? a : b; }"
+        },
+        "memoria": {
+            "heap": "memoria dinámica asignada con new",
+            "stack": "memoria automática para variables locales",
+            "smart_pointers": ["unique_ptr", "shared_ptr", "weak_ptr"]
+        }
+    },
+    "mejores_practicas": {
+        "nombrado": {
+            "variables": "camelCase o snake_case",
+            "clases": "PascalCase",
+            "constantes": "MAYUSCULAS_CON_GUION_BAJO"
+        },
+        "organizacion": {
+            "headers": ".h o .hpp",
+            "implementacion": ".cpp",
+            "separacion": "declaración en header, implementación en cpp"
+        },
+        "seguridad": {
+            "memory_leaks": "evitar fugas de memoria",
+            "raw_pointers": "preferir smart pointers",
+            "const_correctness": "usar const cuando sea posible"
+        }
+    },
+    "ejemplos_practicos": {
+        "clase_basica": {
+            "codigo": "class Persona {\nprivate:\n    string nombre;\n    int edad;\npublic:\n    Persona(string n, int e) : nombre(n), edad(e) {}\n    void mostrar() { cout << nombre << \", \" << edad << \" años\"; }\n};",
+            "explicacion": "Ejemplo de una clase simple con constructor y método"
+        },
+        "template": {
+            "codigo": "template<typename T>\nclass Contenedor {\n    T valor;\npublic:\n    Contenedor(T v) : valor(v) {}\n    T getValor() { return valor; }\n};",
+            "explicacion": "Ejemplo de una clase template genérica"
+        }
+    }
+} 

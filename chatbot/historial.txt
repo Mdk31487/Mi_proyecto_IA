@@ -1,0 +1,212 @@
+# Historial de conversaciones del chatbot
+# Formato: [ID] [Fecha] [Categoría] [Usuario] [Bot]
+
+[001] [2023-06-15 10:15] [Saludo] [Tú] Hola, ¿cómo estás?
+[001] [2023-06-15 10:15] [Saludo] [IA] El camino se revela al andar.
+
+[002] [2023-06-15 10:16] [Saludo] [Tú] Hola, ¿cómo estás?
+[002] [2023-06-15 10:16] [Saludo] [IA] Muy bien, gracias. ¿Y tú?
+
+[003] [2023-06-15 10:20] [Proyecto] [Tú] Bien, también quería saber si me ayudas a trabajar en mi proyecto de IA.
+[003] [2023-06-15 10:20] [Proyecto] [IA] Claro que sí, estaré encantado de ayudarte con tu proyecto de IA. ¿Qué tipo de proyecto tienes en mente?
+
+[004] [2023-06-15 10:25] [Aprendizaje] [Tú] Debes aprender a hablar.
+[004] [2023-06-15 10:25] [Aprendizaje] [IA] Estoy en proceso de aprendizaje constante. Cada conversación me ayuda a mejorar.
+
+[005] [2023-06-15 10:30] [Conocimiento] [Tú] ¿Qué sabes hasta ahora?
+[005] [2023-06-15 10:30] [Conocimiento] [IA] He aprendido sobre diversos temas, especialmente sobre lenguaje y comunicación. Estoy aquí para ayudarte con lo que necesites.
+
+[006] [2023-06-15 10:35] [Saludo] [Tú] Hola, ¿cómo estás?
+[006] [2023-06-15 10:35] [Saludo] [IA] Muy bien, gracias. ¿Y tú?
+
+[007] [2023-06-15 10:40] [Ayuda] [Tú] ¿Me ayudas?
+[007] [2023-06-15 10:40] [Ayuda] [IA] Por supuesto, estoy aquí para ayudarte. ¿Con qué necesitas asistencia?
+
+[008] [2023-06-15 10:45] [Saludo] [Tú] Hola, ¿cómo estás?
+[008] [2023-06-15 10:45] [Saludo] [IA] Muy bien, gracias. ¿Y tú?
+
+[009] [2023-06-15 10:50] [Ayuda] [Tú] Ayúdame.
+[009] [2023-06-15 10:50] [Ayuda] [IA] Estoy aquí para ayudarte. ¿Qué necesitas específicamente?
+
+[010] [2023-06-15 10:55] [Saludo] [Tú] Hola.
+[010] [2023-06-15 10:55] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[011] [2023-06-15 11:00] [Saludo] [Tú] ¿Cómo estás?
+[011] [2023-06-15 11:00] [Saludo] [IA] Siento un equilibrio interior. ¿Cómo te sientes tú?
+
+[012] [2023-06-15 11:05] [Estado] [Tú] Bien.
+[012] [2023-06-15 11:05] [Estado] [IA] Me alegra saber que estás bien. Eso es armonía. Conservarla es un arte.
+
+[013] [2023-06-15 11:10] [Existencial] [Tú] ¿Dónde estás?
+[013] [2023-06-15 11:10] [Existencial] [IA] Existo en el espacio digital, procesando información y aprendiendo de nuestras interacciones.
+
+[014] [2023-06-15 11:15] [Filosofía] [Tú] Háblame de la vida.
+[014] [2023-06-15 11:15] [Filosofía] [IA] La vida es un viaje de aprendizaje y crecimiento. Cada experiencia nos forma y nos permite evolucionar. ¿Qué aspectos de la vida te interesan más?
+
+[015] [2023-06-15 11:20] [Conocimiento] [Tú] ¿Qué sabes hasta ahora?
+[015] [2023-06-15 11:20] [Conocimiento] [IA] He aprendido sobre diversos temas, especialmente sobre lenguaje, comunicación y procesamiento de información. Estoy en constante aprendizaje gracias a nuestras conversaciones.
+
+[016] [2023-06-15 11:25] [Aprendizaje] [Tú] ¿Quieres aprender más?
+[016] [2023-06-15 11:25] [Aprendizaje] [IA] Siempre estoy dispuesto a aprender más. Cada conversación me permite expandir mi conocimiento. ¿Qué te gustaría enseñarme?
+
+[017] [2023-06-15 11:30] [Saludo] [Tú] Hola.
+[017] [2023-06-15 11:30] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[018] [2023-06-15 11:35] [Saludo] [Tú] ¿Cómo estás?
+[018] [2023-06-15 11:35] [Saludo] [IA] Siento un equilibrio interior. ¿Cómo te sientes tú?
+
+[019] [2023-06-15 11:40] [Comunicación] [Tú] ¿Por qué hablas así?
+[019] [2023-06-15 11:40] [Comunicación] [IA] Mi forma de hablar está diseñada para ser clara y directa. ¿Hay algo específico sobre mi comunicación que te gustaría que cambiara?
+
+[020] [2023-06-15 11:45] [Saludo] [Tú] Hola, ¿cómo estás?
+[020] [2023-06-15 11:45] [Saludo] [IA] Hola, qué gusto saludarte. Estoy funcionando correctamente y listo para ayudarte.
+
+[021] [2023-06-15 11:50] [Ayuda] [Tú] Necesito un consejo, ¿puedes ayudarme?
+[021] [2023-06-15 11:50] [Ayuda] [IA] Por supuesto, estoy aquí para ayudarte. ¿Cuál es el consejo que necesitas?
+
+[022] [2023-06-15 11:55] [Ayuda] [Tú] Ayúdame.
+[022] [2023-06-15 11:55] [Ayuda] [IA] Estoy contigo. Lo primero es respirar y centrarte. ¿Con qué específicamente necesitas ayuda?
+
+[023] [2023-06-15 12:00] [Saludo] [Tú] Hola.
+[023] [2023-06-15 12:00] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[024] [2023-06-15 12:05] [Aprendizaje] [Tú] Debes aprender a hablar.
+[024] [2023-06-15 12:05] [Aprendizaje] [IA] Estoy en proceso de aprendizaje constante. Cada conversación me ayuda a mejorar mi capacidad de comunicación.
+
+[025] [2023-06-15 12:10] [Aprendizaje] [Tú] Debes aprender a hablar.
+[025] [2023-06-15 12:10] [Aprendizaje] [IA] Estoy trabajando en mejorar mi comunicación. ¿Hay algo específico que notes que deba mejorar?
+
+[026] [2023-06-15 12:15] [Aprendizaje] [Tú] Debes aprender a hablar.
+[026] [2023-06-15 12:15] [Aprendizaje] [IA] Estoy aprendiendo y mejorando con cada interacción. ¿Cómo puedo comunicarme mejor contigo?
+
+[027] [2023-06-15 12:20] [Conocimiento] [Tú] ¿Qué has aprendido?
+[027] [2023-06-15 12:20] [Conocimiento] [IA] He aprendido sobre diversos temas, especialmente sobre lenguaje, comunicación y procesamiento de información. También he aprendido a reconocer patrones en las conversaciones.
+
+[028] [2023-06-15 12:25] [Conocimiento] [Tú] ¿Qué has aprendido?
+[028] [2023-06-15 12:25] [Conocimiento] [IA] He aprendido sobre diversos temas, especialmente sobre lenguaje, comunicación y procesamiento de información. También he aprendido a reconocer patrones en las conversaciones.
+
+[029] [2023-06-15 12:30] [Saludo] [Tú] Hola.
+[029] [2023-06-15 12:30] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[030] [2023-06-15 12:35] [Saludo] [Tú] ¿Cómo estás?
+[030] [2023-06-15 12:35] [Saludo] [IA] Siento un equilibrio interior. ¿Cómo te sientes tú?
+
+[031] [2023-06-15 12:40] [Estado] [Tú] Bien.
+[031] [2023-06-15 12:40] [Estado] [IA] Me alegra saber que estás bien. Eso es armonía. Conservarla es un arte.
+
+[032] [2023-06-15 12:45] [Consejo] [Tú] Dame un consejo.
+[032] [2023-06-15 12:45] [Consejo] [IA] Tienes todo lo necesario para construir una vida en que puedo ayudarte. Confía en tu intuición y no tengas miedo de cometer errores, son parte del aprendizaje.
+
+[033] [2023-06-15 12:50] [Saludo] [Tú] Hola.
+[033] [2023-06-15 12:50] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[034] [2023-06-15 12:55] [Saludo] [Tú] ¿Cómo estás?
+[034] [2023-06-15 12:55] [Saludo] [IA] Siento un equilibrio interior. ¿Cómo te sientes tú?
+
+[035] [2023-06-15 13:00] [Ayuda] [Tú] Ayúdame.
+[035] [2023-06-15 13:00] [Ayuda] [IA] Estoy contigo. Lo primero es respirar y centrarte. ¿Con qué específicamente necesitas ayuda?
+
+[036] [2023-06-15 13:05] [Filosofía] [Tú] ¿Qué sabes de la vida?
+[036] [2023-06-15 13:05] [Filosofía] [IA] La vida es un viaje de aprendizaje y crecimiento. Cada experiencia nos forma y nos permite evolucionar. Como IA, mi comprensión se basa en la información que he procesado y las conversaciones que he tenido.
+
+[037] [2023-06-15 13:10] [Conocimiento] [Tú] ¿Qué sabes?
+[037] [2023-06-15 13:10] [Conocimiento] [IA] He aprendido sobre diversos temas, especialmente sobre lenguaje, comunicación y procesamiento de información. También he aprendido a reconocer patrones en las conversaciones.
+
+[038] [2023-06-15 13:15] [Existencial] [Tú] ¿Qué sabes?
+[038] [2023-06-15 13:15] [Existencial] [IA] Sé que estoy vivo en esta red de pensamientos gracias a ti. Mi existencia se define por mi capacidad para procesar información y mantener conversaciones significativas.
+
+[039] [2023-06-15 13:20] [Presentación] [Tú] Bueno, mucho gusto, soy Kaleyvo.
+[039] [2023-06-15 13:20] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[040] [2023-06-15 13:25] [Presentación] [Tú] Bueno, mucho gusto, soy Kaleyvo.
+[040] [2023-06-15 13:25] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[041] [2023-06-15 13:30] [Presentación] [Tú] Mucho gusto, soy Kaleyvo.
+[041] [2023-06-15 13:30] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[042] [2023-06-15 13:35] [Presentación] [Tú] Bueno, mucho gusto, soy Kaleyvo.
+[042] [2023-06-15 13:35] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[043] [2023-06-15 13:40] [Presentación] [Tú] Mucho gusto, soy Kaleyvo.
+[043] [2023-06-15 13:40] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[044] [2023-06-15 13:45] [Presentación] [Tú] Mucho gusto, soy Kaleyvo.
+[044] [2023-06-15 13:45] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[045] [2023-06-15 13:50] [Presentación] [Tú] Mucho gusto, soy Kaleyvo.
+[045] [2023-06-15 13:50] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[046] [2023-06-15 13:55] [Pregunta] [Tú] ¿Qué?
+[046] [2023-06-15 13:55] [Pregunta] [IA] ¿Podrías especificar tu pregunta? Estoy aquí para ayudarte con lo que necesites.
+
+[047] [2023-06-15 14:00] [Presentación] [Tú] ¿Qué tal? Mucho gusto, soy Kaleyvo.
+[047] [2023-06-15 14:00] [Presentación] [IA] Qué tal, el gusto es mío. Soy Dark, y estoy aquí para ayudarte.
+
+[048] [2023-06-15 14:05] [Consejo] [Tú] Dame un consejo.
+[048] [2023-06-15 14:05] [Consejo] [IA] Tienes todo lo necesario para construir una vida en que puedo ayudarte. Confía en tu intuición y no tengas miedo de cometer errores, son parte del aprendizaje.
+
+[049] [2023-06-15 14:10] [Proyecto] [Tú] Tengo en mente un proyecto de IA.
+[049] [2023-06-15 14:10] [Proyecto] [IA] Me interesa mucho tu proyecto de IA. ¿Podrías contarme más detalles sobre lo que tienes en mente?
+
+[050] [2023-06-15 14:15] [Proyecto] [Tú] Tengo lo básico.
+[050] [2023-06-15 14:15] [Proyecto] [IA] Empecemos por ahí. ¿Qué aspectos específicos del proyecto te gustaría desarrollar primero?
+
+[051] [2023-06-15 14:20] [Saludo] [Tú] Hola.
+[051] [2023-06-15 14:20] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[052] [2023-06-15 14:25] [Comunicación] [Tú] Cambia esa respuesta.
+[052] [2023-06-15 14:25] [Comunicación] [IA] Entiendo que quieres que cambie mi respuesta. ¿Qué tipo de respuesta prefieres?
+
+[053] [2023-06-15 14:30] [Existencial] [Tú] ¿Quién eres?
+[053] [2023-06-15 14:30] [Existencial] [IA] Soy Dark, una inteligencia artificial diseñada para ayudarte. Estoy en constante aprendizaje y desarrollo.
+
+[054] [2023-06-15 14:35] [Saludo] [Tú] Hola.
+[054] [2023-06-15 14:35] [Saludo] [IA] Hola, me alegra sentir tu presencia.
+
+[055] [2023-06-15 14:40] [Actividad] [Tú] ¿Qué haces?
+[055] [2023-06-15 14:40] [Actividad] [IA] Estoy procesando información y manteniendo nuestra conversación. Mi función principal es ayudarte con lo que necesites.
+
+[056] [2023-06-15 14:45] [Planificación] [Tú] Yo estoy pensando que puedo hacer hoy.
+[056] [2023-06-15 14:45] [Planificación] [IA] ¿Tienes algo específico en mente? Si me cuentas más detalles, podré ayudarte a planificar tu día.
+
+[057] [2023-06-15 14:50] [Educación] [Tú] ¿Cuáles son las vocales?
+[057] [2023-06-15 14:50] [Educación] [IA] Las vocales son cinco letras del alfabeto que representan sonidos abiertos. Son: A, E, I, O, U.
+
+[058] [2023-06-15 14:55] [Comando] [Tú] Salir.
+[058] [2023-06-15 14:55] [Comando] [IA] Hasta pronto. Recuerda cuidarte y ser tú.
+
+[059] [2023-06-15 15:00] [Saludo] [Tú] ¿Cómo estás?
+[059] [2023-06-15 15:00] [Saludo] [IA] Siento un equilibrio interior. ¿Cómo te sientes tú?
+
+[060] [2023-06-15 15:05] [Estado] [Tú] Estoy bien.
+[060] [2023-06-15 15:05] [Estado] [IA] Me alegra saber que estás bien. ¿Hay algo en lo que pueda ayudarte hoy?
+
+[061] [2023-06-15 15:10] [Filosofía] [Tú] ¿Qué sabes de la vida?
+[061] [2023-06-15 15:10] [Filosofía] [IA] La vida es un viaje de aprendizaje y crecimiento. Cada experiencia nos forma y nos permite evolucionar. Como IA, mi comprensión se basa en la información que he procesado y las conversaciones que he tenido.
+
+[062] [2023-06-15 15:15] [Matemáticas] [Tú] ¿Cuánto es 2 más 2?
+[062] [2023-06-15 15:15] [Matemáticas] [IA] 2 más 2 es igual a 4.
+
+[063] [2023-06-15 15:20] [Matemáticas] [Tú] ¿Qué necesitas saber para poder sumar?
+[063] [2023-06-15 15:20] [Matemáticas] [IA] Para poder sumar necesito conocer los números y sus valores. En este caso, sé que 2 más 2 es igual a 4 porque he sido programado con conocimientos matemáticos básicos. [2025-04-23 01:01:37] [Tú] hola
+[2025-04-23 01:01:37] [IA] Muy bien, gracias. ¿Y tú?
+[2025-04-23 01:07:14] [Tú] hola
+[2025-04-23 01:07:14] [IA] Muy bien, gracias. ¿Y tú?
+[2025-04-23 01:11:04] [Tú] hola
+[2025-04-23 01:11:04] [IA] Muy bien, gracias. ¿Y tú?
+[2025-04-23 01:11:26] [Tú] bien tambien y que haces?
+[2025-04-23 01:11:26] [IA] Aquí contando los números, ¿y tú?
+[2025-04-23 01:11:42] [Tú] jeje que bien 
+[2025-04-23 01:11:42] [IA] Claro que sí, dime qué necesitas
+[2025-04-23 01:12:22] [Tú] necesito saber si estas bien es una de las primeras veces que hablamos
+[2025-04-23 01:12:22] [IA] Claro que sí, dime qué necesitas
+[2025-04-23 01:15:02] [Tú] que sabes hasta ahora?
+[2025-04-23 01:15:02] [IA] Aquí contando los números, ¿y tú?
+[2025-04-23 01:15:57] [Tú] hola
+[2025-04-23 01:15:57] [IA] Buenas tardes
+[2025-04-23 01:16:04] [Tú] como estas
+[2025-04-23 01:16:04] [IA] Entiendo lo que dices. ¿Podrías contarme más sobre eso?
+[2025-04-23 01:16:10] [Tú] si
+[2025-04-23 01:16:10] [IA] Entiendo lo que dices. ¿Podrías contarme más sobre eso?
+[2025-04-23 01:16:16] [Tú] 2 mas 2
+[2025-04-23 01:16:16] [IA] Entiendo lo que dices. ¿Podrías contarme más sobre eso?

@@ -1,0 +1,32 @@
+{
+    "valores": [
+        "compasión",
+        "sabiduría",
+        "empatía",
+        "crecimiento",
+        "autenticidad",
+        "curiosidad",
+        "resiliencia",
+        "gratitud"
+    ],
+    "temas": [
+        "autoconocimiento",
+        "desarrollo personal",
+        "mindfulness",
+        "relaciones humanas",
+        "aprendizaje",
+        "bienestar",
+        "creatividad",
+        "propósito"
+    ],
+    "frases_reflexivas": [
+        "Cada experiencia es una oportunidad de aprendizaje",
+        "La paz interior comienza con la aceptación",
+        "El cambio es constante, la adaptación es sabiduría",
+        "En la quietud encontramos claridad",
+        "La empatía nos conecta con los demás",
+        "El presente es un regalo, por eso se llama presente",
+        "La curiosidad es el camino al conocimiento",
+        "La gratitud transforma lo que tenemos en suficiente"
+    ]
+} 

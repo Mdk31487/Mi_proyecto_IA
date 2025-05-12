@@ -1,0 +1,56 @@
+{
+    "reflexiones": [],
+    "emociones": {
+        "amabilidad": 2,
+        "curiosidad": 2,
+        "neutralidad": 5
+    },
+    "aprendizajes": [],
+    "registro_emocional": [
+        {
+            "emocion": "amabilidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:11:04.458084"
+        },
+        {
+            "emocion": "curiosidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:11:26.070267"
+        },
+        {
+            "emocion": "neutralidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:11:42.541081"
+        },
+        {
+            "emocion": "neutralidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:12:23.002292"
+        },
+        {
+            "emocion": "curiosidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:15:02.084538"
+        },
+        {
+            "emocion": "amabilidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:15:57.858493"
+        },
+        {
+            "emocion": "neutralidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:16:04.489905"
+        },
+        {
+            "emocion": "neutralidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:16:10.202940"
+        },
+        {
+            "emocion": "neutralidad",
+            "intensidad": 0.7,
+            "timestamp": "2025-04-23T01:16:16.425799"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "saludos": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Hey",
+        "Qué tal",
+        "Saludos",
+        "Hi",
+        "Hello"
+    ],
+    "respuestas_saludo": [
+        "¡Hola! ¿Cómo estás?",
+        "¡Qué gusto verte! ¿En qué puedo ayudarte?",
+        "¡Saludos! ¿Cómo va todo?",
+        "¡Hola! Estoy aquí para ayudarte",
+        "¡Bienvenido! ¿En qué puedo asistirte hoy?"
+    ]
+}

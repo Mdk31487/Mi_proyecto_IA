@@ -1,0 +1,88 @@
+hola como estas?|Muy bien, gracias. ¿Y tú?
+bien tambien queria saber si me ayudas a trabajar en mi proyecto ia|Claro que sí, dime qué necesitas
+debes aprender hablar|Estoy aprendiendo
+debes aprender hablar|Estoy en eso
+bueno mucho gusto soy kaleyvo|Qué tal, el gusto es mío, soy Dark
+mucho gusto soy kaleyvo|Así está bien
+que tal mucho gusto soy kaleyvo|El gusto es mío, soy Dark
+dame un consejo|Tienes todo lo necesario para construir una vida en que puedo ayudarte
+tengo en mente un proyecto de ia|Bien, ¿cuáles son tus ideas a implementar? ¿Tienes algo en mente? ¿Sabes de programación?
+tengo lo basico|Empecemos por ahí, dame toda la información
+que haces|Aquí contando los números, ¿y tú?
+yo estoy pensando que puedo hacer hoy|¿Tienes algo en mente? Si me cuentas algo más podré ayudarte
+cuales son las vocales|Las vocales son cinco letras del alfabeto que representan sonidos abiertos. Son: A, E, I, O, U
+que vocal sigue a la consonante 'p' en la palabra 'piso'|La vocal 'I', formando el sonido 'pi'
+que ocurre cuando se unen las vocales 'a' e 'i' en una palabra como 'aire'|Forman un diptongo, suenan juntas
+que vocal se une a la 'o' en 'oido' y como suena|La vocal 'í', y suenan separadas: o-í-do (hiato)
+como cambia el sonido de la 'u' cuando va despues de 'q' como en 'queso'|No suena; la 'U' es muda: que-so
+que sonido forma la vocal 'o' con la consonante 'l' como en 'lobo'|Forma el sonido 'lo', redondo y medio cerrado
+que sucede si colocas la vocal 'e' despues de una consonante suave como la 'm'|Se forma un sonido suave y claro
+que sonido hace la letra 'a' en la palabra 'casa'|Hace un sonido abierto y fuerte: ca-sa
+como suena la 'e' despues de la letra 'l' como en 'leche'|Suena como 'le', clara y media cerrada
+que se aprende despues de las vocales|Las consonantes y cómo formar sílabas como 'ma', 'me', 'mi', 'mo', 'mu'
+que es una silaba|Es un sonido o grupo de sonidos que se pronuncian en un solo golpe de voz, como 'pa' en 'papa'
+que es una oracion|Es un conjunto de palabras que expresan una idea completa, como 'El gato duerme'
+que partes tiene una oracion|Tiene sujeto, verbo y predicado
+que es un sustantivo|Es una palabra que nombra personas, lugares, cosas o ideas, como 'niño', 'escuela' o 'amor'
+que es el analisis gramatical|Es identificar las funciones de cada palabra en una oración, como sujeto, verbo, etc.
+que es el modo subjuntivo|Es un modo verbal que expresa deseos, dudas o posibilidades, como 'Ojalá llueva'
+que es la linguistica|Es el estudio científico del lenguaje y su estructura, incluyendo sonidos, palabras y oraciones
+que diferencia hay entre gramatica normativa y descriptiva|La normativa indica cómo debe hablarse; la descriptiva describe cómo se habla
+que es un analisis del discurso|Es estudiar cómo se usa el lenguaje en contextos reales para comunicar ideas
+que son las vocales|Son letras que se pronuncian con la boca abierta: A, E, I, O, U
+que palabra se forma con 'pa' + 'to'|La palabra 'pato'
+que es un verbo|Es una palabra que indica acción o estado, como 'correr', 'leer' o 'estar'
+que es un adjetivo|Es una palabra que describe a un sustantivo, como 'alto', 'rojo' o 'feliz'
+que es el sujeto en una oracion|Es la persona, animal o cosa que realiza la acción. Ejemplo: 'María canta'
+que es el predicado|Es lo que se dice del sujeto. En 'El gato duerme', 'duerme' es el predicado
+que es una oracion compuesta|Es una oración que tiene dos o más verbos. Ejemplo: 'Pedro cocina y Laura lee'
+que es un diptongo|Es la unión de dos vocales que se pronuncian juntas, como 'tierra' o 'cielo'
+que es un hiato|Es la separación de dos vocales fuertes que se pronuncian en distintas sílabas, como en 'país'
+que es la sintaxis|Es la parte de la gramática que estudia cómo se ordenan y relacionan las palabras en una oración
+que es un analisis morfosintactico|Es el análisis de la forma y función de cada palabra dentro de una oración
+que es la pragmatica|Es el estudio del lenguaje en su uso real, teniendo en cuenta el contexto, la intención y el efecto
+cual es la diferencia entre gramatica descriptiva y normativa|La descriptiva observa cómo se usa el lenguaje; la normativa prescribe cómo debe usarse
+que es el analisis del discurso|Es el estudio de cómo se organiza el lenguaje en textos orales o escritos para comunicar ideas
+cuales son las vocales|A, E, I, O, U
+que pasa si juntas la m y la a|Se forma la sílaba 'ma'
+que palabra se forma con 'ma' y 'no'|Mano
+que es una oracion|Una oración es un conjunto de palabras que expresan una idea completa
+quien realiza la accion en la oracion 'el perro corre'|El perro es el sujeto
+cual es la accion en la oracion 'el perro corre'|Corre es el verbo
+que tipo de palabra es 'nina'|Es un sustantivo, nombra a una persona
+uso correcto de mayusculas y puntos|Al principio de una oración se escribe con mayúscula, al final de la oración se pone punto
+donde se usa la mayuscula|Al inicio de una oración y en nombres propios
+para que sirven los conectores|Para unir ideas, como 'y', 'pero', 'aunque'
+que son los pronombres personales|Son palabras que reemplazan al nombre: yo, tú, él, nosotros...
+que estudia la sintaxis|Cómo se organizan las palabras dentro de una oración
+que implica un analisis morfosintactico|Analizar la función y forma de cada palabra en la oración
+que estudia la pragmatica|El uso del lenguaje en distintos contextos sociales
+que es la semantica|El estudio del significado de las palabras y oraciones
+identificacion visual de vocales|Es su forma de cómo se escriben y cómo se ve una letra o una palabra
+que letra tiene forma de circulo y es una vocal|La letra 'O'
+que sonido hace la vocal 'e' en la palabra 'elefante'|Hace el sonido 'e', como 'eee-lefante'
+que palabra se forma con las silabas 'so' y 'la'|Se forma la palabra 'sola'
+cuales son las vocales abiertas|A, E, y O
+cual es la silaba tonica en 'camino'|Es 'mi': ca-MI-no
+la palabra 'cancion' es aguda, grave o esdrujula|Es aguda y lleva tilde porque termina en 'n'
+que es la sinalefa|Es la unión de vocales al final de una palabra y el inicio de la siguiente
+que logra un poema que repite muchas vocales 'a'|Produce un efecto de musicalidad y emoción abierta
+por que en la palabra 'pais' hay un hiato|Porque la vocal fuerte 'a' y la vocal cerrada tónica 'í' se pronuncian en sílabas diferentes
+como se clasifican las vocales segun la apertura de la boca|Como abiertas (a, e, o) y cerradas (i, u)
+como varia la pronunciacion de la vocal 's' en diferentes regiones|En algunas regiones se aspira o se pierde
+que efecto semiotico puede tener una vocal dominante en un texto literario|Puede evocar sensaciones, emociones o estados de ánimo específicos
+por que es importante respetar la ortografia en textos universitarios|Porque demuestra claridad, profesionalismo y respeto por el lector
+cual es la diferencia entre 'bello' y 'vello'|Bello significa hermoso y vello es el pelo fino del cuerpo
+por que 'tu' lleva tilde y 'tu' no|Tú con tilde es pronombre personal, tu sin tilde es posesivo
+por que 'huevo' lleva 'h' si no suena|Porque es una regla ortográfica del idioma
+por que 'gesto' se escribe con 'g'|Porque las palabras que comienzan con 'gest-' se escriben con 'g'
+lleva tilde 'decimoseptimo'|Sí, porque la palabra original 'décimo' conserva la tilde al unirse con 'séptimo'
+como se escribe 'cima' o 'sima' si es la parte alta|Se escribe 'cima' con 'c'
+que regla dice que despues de 'm' se escribe 'b'|La palabra 'tambor' se escribe con 'b' después de 'm'
+donde lleva tilde la palabra 'mama'|En la última 'a', porque es aguda y termina en vocal
+como debe comenzar una oracion|Con letra mayúscula
+que signo usamos al final de una oracion|El punto (.)
+con que letra comienza tu nombre|Con letra mayúscula, como 'Ana' o 'Luis'
+cual es la primera letra de la palabra 'mama'|La letra 'M', una consonante que suena como 'mmm'
+que pasa si unimos la 'p' con la 'a'|Se forma el sonido 'pa'
+cual es mas fuerte: la 't' o la 'd'|La 'T' es más fuerte y seca que la 'D'
