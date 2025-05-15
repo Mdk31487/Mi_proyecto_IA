@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot 2D Animado</title>
+  <style>
+    canvas {
+      background-color: #111;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="robotCanvas" width="600" height="800"></canvas>
+
+  <script>
+    const canvas = document.getElementById("robotCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let robotX = 260, robotY = 100;
+    const speed = 4;
+    let step = 0;
+    let moving = false;
+
+    function drawHead(x, y) {
+      ctx.fillStyle = "#999";
+      ctx.fillRect(x, y, 80, 80);
+    }
+
+    function drawNeck(x, y) {
+      ctx.fillStyle = "#666";
+      ctx.fillRect(x + 30, y, 20, 20);
+    }
+
+    function drawTorso(x, y) {
+      ctx.fillStyle = "#444";
+      ctx.fillRect(x, y, 80, 150);
+    }
+
+    function drawArm(x, y, side, swing) {
+      const dx = side === "left" ? -30 : 80;
+      const offset = swing * (side === "left" ? 1 : -1);
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x + dx, y + 20 + offset, 20, 100);
+      ctx.fillRect(x + dx, y + 120 + offset, 20, 80);
+      drawHand(x + dx, y + 200 + offset);
+    }
+
+    function drawHand(x, y) {
+      ctx.fillStyle = "#aaa";
+      ctx.beginPath();
+      ctx.arc(x + 10, y + 10, 15, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    function drawLeg(x, y, side, swing) {
+      const dx = side === "left" ? 0 : 50;
+      const offset = swing * (side === "left" ? -1 : 1);
+      ctx.fillStyle = "#bbb";
+      ctx.fillRect(x + dx, y + offset, 20, 100);
+      ctx.fillRect(x + dx, y + 100 + offset, 20, 80);
+      drawFoot(x + dx, y + 180 + offset);
+    }
+
+    function drawFoot(x, y) {
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x - 10, y, 40, 20);
+    }
+
+    function drawRobot(baseX, baseY) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const swing = Math.sin(step / 5) * 5;
+      drawHead(baseX, baseY);
+      drawNeck(baseX, baseY + 80);
+      drawTorso(baseX, baseY + 100);
+      drawArm(baseX, baseY + 100, "left", swing);
+      drawArm(baseX, baseY + 100, "right", -swing);
+      drawLeg(baseX, baseY + 250, "left", swing);
+      drawLeg(baseX, baseY + 250, "right", -swing);
+    }
+
+    const keys = {};
+    document.addEventListener("keydown", (e) => {
+      keys[e.key] = true;
+    });
+    document.addEventListener("keyup", (e) => {
+      keys[e.key] = false;
+    });
+
+    function update() {
+      moving = false;
+      if (keys["ArrowLeft"]) {
+        robotX -= speed;
+        moving = true;
+      }
+      if (keys["ArrowRight"]) {
+        robotX += speed;
+        moving = true;
+      }
+      if (keys["ArrowUp"]) {
+        robotY -= speed;
+        moving = true;
+      }
+      if (keys["ArrowDown"]) {
+        robotY += speed;
+        moving = true;
+      }
+
+      if (moving) step++;
+      drawRobot(robotX, robotY);
+      requestAnimationFrame(update);
+    }
+
+    update();
+  </script>
+</body>
+</html>

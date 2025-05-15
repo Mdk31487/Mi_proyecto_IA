@@ -1,12 +1,20 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
 from jose import jwt
 from datetime import datetime, timedelta
+from sqlmodel import Session, select
+from database import engine, create_db_and_tables
+from models import Prediction
+from typing import List
 
-# Inicializaci  n de la aplicaci  n
+# Inicialización de la aplicación
 app = FastAPI()
 
-# Clave secreta para la generaci  n de tokens
+@app.on_event("startup")
+def on_startup():
+    create_db_and_tables()
+
+# Clave secreta para la generación de tokens
 SECRET_KEY = "mi_secreto_super_seguro"
 ALGORITHM = "HS256"
 TOKEN_EXPIRATION_HOURS = 1
@@ -18,6 +26,9 @@ class ModelUploadRequest(BaseModel):
 class TokenRequest(BaseModel):
     username: str
 
+class PredictionRequest(BaseModel):
+    features: list[float]
+
 # Rutas
 
 @app.get("/")
@@ -26,8 +37,7 @@ def read_root():
 
 @app.post("/upload_model/")
 def upload_model(request: ModelUploadRequest):
-    # Aqu   ir  a la l  gica para subir y guardar modelos
-    # Puedes conectar esta parte con una base de datos o almacenamiento en la nube
+    # Aquí iría la lógica para subir y guardar modelos
     return {"status": "Modelo subido correctamente", "model_name": request.name}
 
 @app.post("/generate_token/")
@@ -39,4 +49,44 @@ def generate_token(request: TokenRequest):
     token_data = {"sub": request.username, "exp": expiration}
     token = jwt.encode(token_data, SECRET_KEY, algorithm=ALGORITHM)
 
-    return {"access_token": token, "token_type": "bearer", "expires_in": TOKEN_EXPIRATION_HOURS * 3600}
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "expires_in": TOKEN_EXPIRATION_HOURS * 3600
+    }
+
+@app.post("/predict/")
+def predict(request: PredictionRequest):
+    if len(request.features) != 2:
+        raise HTTPException(status_code=400, detail="Se requieren exactamente 2 características.")
+
+    # Lógica de predicción (ejemplo simple)
+    resultado = sum(request.features)
+
+    return {
+        "usuario": "demo_user",  # Puedes extraerlo del token más adelante
+        "prediccion": resultado
+    }
+
+@app.post("/fastapi/predict/")
+def predict(features: List[float], username: str):
+    # Aquí iría tu modelo de predicción
+    prediction_result = sum(features)  # ejemplo: suma simple
+
+    with Session(engine) as session:
+        prediction = Prediction(
+            username=username,
+            feature1=features[0],
+            feature2=features[1],
+            prediction=prediction_result
+        )
+        session.add(prediction)
+        session.commit()
+
+    return {"usuario": username, "prediction": prediction_result}
+
+@app.get("/fastapi/predictions/")
+def get_predictions():
+    with Session(engine) as session:
+        predictions = session.exec(select(Prediction)).all()
+        return predictions

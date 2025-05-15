@@ -1,0 +1,20 @@
+<!-- users/templates/users/profile.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de {{ profile.user.username }}</title>
+</head>
+<body>
+    <h1>Perfil de {{ profile.user.username }}</h1>
+    <p><strong>Biografía:</strong> {{ profile.bio|default:"(sin biografía)" }}</p>
+    <p><strong>Fecha de nacimiento:</strong> {{ profile.birth_date|default:"(no especificada)" }}</p>
+
+    {% if profile.avatar %}
+        <img src="{{ profile.avatar.url }}" alt="Avatar de {{ profile.user.username }}" width="150">
+    {% else %}
+        <p>No hay avatar disponible.</p>
+    {% endif %}
+</body>
+</html>
+

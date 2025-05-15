@@ -3,8 +3,11 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
 from django.contrib.auth.models import User
 from .serializers import UserSerializer
+from api.authentication import CustomJWTAuthentication  # Importante
+
 import jwt
 from datetime import datetime, timedelta
 
@@ -33,9 +36,12 @@ class TestView(APIView):
 # --- USUARIOS ---
 
 class UserList(APIView):
-    """Vista para obtener la lista de usuarios o crear un nuevo usuario"""
-    
+    """Vista para obtener la lista de usuarios o crear un nuevo usuario (protegido con JWT)"""
+    authentication_classes = [CustomJWTAuthentication]
+    permission_classes = [IsAuthenticated]
+
     def get(self, request):
+        print("Autenticado como:", request.user)
         users = User.objects.all()
         serializer = UserSerializer(users, many=True)
         return Response(serializer.data)

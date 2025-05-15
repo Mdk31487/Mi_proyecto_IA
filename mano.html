@@ -1,0 +1,86 @@
+// Estructura básica del robot en 2D con JavaScript Canvas
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = 800;
+canvas.height = 600;
+
+function drawCircle(x, y, radius, label) {
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2);
+  ctx.fillStyle = "#ccc";
+  ctx.fill();
+  ctx.stroke();
+  ctx.fillStyle = "#000";
+  ctx.fillText(label, x - 10, y + 4);
+}
+
+function drawLine(x1, y1, x2, y2) {
+  ctx.beginPath();
+  ctx.moveTo(x1, y1);
+  ctx.lineTo(x2, y2);
+  ctx.stroke();
+}
+
+function drawRobot() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Cabeza
+  drawCircle(400, 100, 30, "Cabeza");
+
+  // Cuello
+  drawLine(400, 130, 400, 150);
+
+  // Torso
+  drawLine(400, 150, 400, 300);
+  drawCircle(400, 200, 10, "Sensor"); // Sensor torácico
+
+  // Brazos
+  // Hombros
+  drawLine(400, 170, 320, 190); // Brazo izquierdo
+  drawLine(400, 170, 480, 190); // Brazo derecho
+
+  // Codos
+  drawCircle(320, 190, 10, "C");
+  drawCircle(480, 190, 10, "C");
+  drawLine(320, 190, 280, 230); // Antebrazo izquierdo
+  drawLine(480, 190, 520, 230); // Antebrazo derecho
+
+  // Muñecas
+  drawCircle(280, 230, 8, "M");
+  drawCircle(520, 230, 8, "M");
+
+  // Manos con dedos simplificados (5 por mano)
+  for (let i = 0; i < 5; i++) {
+    drawLine(280, 230, 260 - i * 5, 260 + i * 2); // dedos izq
+    drawLine(520, 230, 540 + i * 5, 260 + i * 2); // dedos der
+  }
+
+  // Cadera
+  drawLine(400, 300, 360, 340);
+  drawLine(400, 300, 440, 340);
+
+  // Piernas
+  drawLine(360, 340, 360, 420); // muslo izq
+  drawLine(440, 340, 440, 420); // muslo der
+
+  // Rodillas
+  drawCircle(360, 420, 10, "R");
+  drawCircle(440, 420, 10, "R");
+
+  // Pierna inferior
+  drawLine(360, 420, 360, 500);
+  drawLine(440, 420, 440, 500);
+
+  // Pies
+  drawLine(360, 500, 340, 500);
+  drawLine(440, 500, 460, 500);
+
+  // Sensores adicionales
+  drawCircle(360, 420, 5, "P"); // Sensor rodilla izq
+  drawCircle(440, 420, 5, "P"); // Sensor rodilla der
+  drawCircle(400, 100, 5, "V"); // Sensor visual
+  drawCircle(400, 130, 5, "A"); // Sensor auditivo
+}
+
+drawRobot();

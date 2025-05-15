@@ -38,7 +38,7 @@ urlpatterns = [
     path('favicon.ico', RedirectView.as_view(url='/static/favicon.ico', permanent=True)),  # Redirección de favicon
 
     # Rutas de autenticación
-    path('login/', auth_views.LoginView.as_view(), name='login'),
+    path('login/', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 
     # Rutas de autenticación con JWT
@@ -50,6 +50,9 @@ urlpatterns = [
 
     # Rutas de la app 'api'
     path('api/', include('api.urls')),  # Conectar las URLs de la app 'api'
+
+    # esta lienea es clave para qu funcionen las rutas de `users/urls.py`
+    path('users/', include('users.urls')),
 ]
 
 # Servir archivos estáticos en modo DEBUG

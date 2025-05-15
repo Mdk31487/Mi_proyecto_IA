@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/static/css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="/static/img/logo.png" alt="Logo" class="logo">
+        <h1>Chat Interactivo</h1>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box"></div>
+            <form id="chatForm" class="chat-form">
+                <input type="text" id="userInput" placeholder="Escribe un mensaje..." required />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const chatForm = document.getElementById("chatForm");
+            const chatBox = document.getElementById("chat-box");
+
+            chatForm.addEventListener("submit", (e) => {
+                e.preventDefault();
+                const input = document.getElementById("userInput");
+                const message = input.value.trim();
+
+                if (message !== "") {
+                    const userMsg = document.createElement("div");
+                    userMsg.className = "user-message";
+                    userMsg.textContent = "Tú: " + message;
+                    chatBox.appendChild(userMsg);
+
+                    // Aquí puedes agregar una respuesta dummy del sistema por ahora
+                    const botMsg = document.createElement("div");
+                    botMsg.className = "bot-message";
+                    botMsg.textContent = "Bot: Aún no estoy conectado, pero pronto podré responder.";
+                    chatBox.appendChild(botMsg);
+
+                    input.value = "";
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot 2D</title>
+  <style>
+    canvas {
+      background-color: #111;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="robotCanvas" width="600" height="800"></canvas>
+
+  <script>
+    const canvas = document.getElementById("robotCanvas");
+    const ctx = canvas.getContext("2d");
+
+    function drawHead(x, y) {
+      ctx.fillStyle = "#999";
+      ctx.fillRect(x, y, 80, 80);
+    }
+
+    function drawNeck(x, y) {
+      ctx.fillStyle = "#666";
+      ctx.fillRect(x + 30, y, 20, 20);
+    }
+
+    function drawTorso(x, y) {
+      ctx.fillStyle = "#444";
+      ctx.fillRect(x, y, 80, 150);
+    }
+
+    function drawArm(x, y, side) {
+      const dx = side === "left" ? -30 : 80;
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x + dx, y + 20, 20, 100); // brazo superior
+      ctx.fillRect(x + dx, y + 120, 20, 80); // antebrazo
+      drawHand(x + dx, y + 200);
+    }
+
+    function drawHand(x, y) {
+      ctx.fillStyle = "#aaa";
+      ctx.beginPath();
+      ctx.arc(x + 10, y + 10, 15, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    function drawLeg(x, y, side) {
+      const dx = side === "left" ? 0 : 50;
+      ctx.fillStyle = "#bbb";
+      ctx.fillRect(x + dx, y, 20, 100); // muslo
+      ctx.fillRect(x + dx, y + 100, 20, 80); // pantorrilla
+      drawFoot(x + dx, y + 180);
+    }
+
+    function drawFoot(x, y) {
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x - 10, y, 40, 20);
+    }
+
+    function drawRobot(baseX, baseY) {
+      drawHead(baseX, baseY);
+      drawNeck(baseX, baseY + 80);
+      drawTorso(baseX, baseY + 100);
+      drawArm(baseX, baseY + 100, "left");
+      drawArm(baseX, baseY + 100, "right");
+      drawLeg(baseX, baseY + 250, "left");
+      drawLeg(baseX, baseY + 250, "right");
+    }
+
+    // Dibujar el robot en el centro
+    drawRobot(260, 100);
+  </script>
+</body>
+</html>

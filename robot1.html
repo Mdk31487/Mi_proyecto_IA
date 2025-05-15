@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot 2D Movimiento</title>
+  <style>
+    canvas {
+      background-color: #111;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="robotCanvas" width="600" height="800"></canvas>
+
+  <script>
+    const canvas = document.getElementById("robotCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let robotX = 260;
+    let robotY = 100;
+    const speed = 5;
+
+    function drawHead(x, y) {
+      ctx.fillStyle = "#999";
+      ctx.fillRect(x, y, 80, 80);
+    }
+
+    function drawNeck(x, y) {
+      ctx.fillStyle = "#666";
+      ctx.fillRect(x + 30, y, 20, 20);
+    }
+
+    function drawTorso(x, y) {
+      ctx.fillStyle = "#444";
+      ctx.fillRect(x, y, 80, 150);
+    }
+
+    function drawArm(x, y, side) {
+      const dx = side === "left" ? -30 : 80;
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x + dx, y + 20, 20, 100);
+      ctx.fillRect(x + dx, y + 120, 20, 80);
+      drawHand(x + dx, y + 200);
+    }
+
+    function drawHand(x, y) {
+      ctx.fillStyle = "#aaa";
+      ctx.beginPath();
+      ctx.arc(x + 10, y + 10, 15, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    function drawLeg(x, y, side) {
+      const dx = side === "left" ? 0 : 50;
+      ctx.fillStyle = "#bbb";
+      ctx.fillRect(x + dx, y, 20, 100);
+      ctx.fillRect(x + dx, y + 100, 20, 80);
+      drawFoot(x + dx, y + 180);
+    }
+
+    function drawFoot(x, y) {
+      ctx.fillStyle = "#888";
+      ctx.fillRect(x - 10, y, 40, 20);
+    }
+
+    function drawRobot(baseX, baseY) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawHead(baseX, baseY);
+      drawNeck(baseX, baseY + 80);
+      drawTorso(baseX, baseY + 100);
+      drawArm(baseX, baseY + 100, "left");
+      drawArm(baseX, baseY + 100, "right");
+      drawLeg(baseX, baseY + 250, "left");
+      drawLeg(baseX, baseY + 250, "right");
+    }
+
+    function update() {
+      drawRobot(robotX, robotY);
+      requestAnimationFrame(update);
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") robotX -= speed;
+      if (e.key === "ArrowRight") robotX += speed;
+      if (e.key === "ArrowUp") robotY -= speed;
+      if (e.key === "ArrowDown") robotY += speed;
+    });
+
+    update();
+  </script>
+</body>
+</html>

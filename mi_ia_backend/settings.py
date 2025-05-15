@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 import os
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'reemplazar_con_una_clave_segura')
 
 # Modo de depuración (False en producción)
-DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
+DEBUG = True
 
 # Hosts permitidos (debe configurarse en producción)
 ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
@@ -49,6 +50,8 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',  # App de usuarios
     'api',  # Tu app de la IA
     'interacciones',
+    # otros apps
+    'sslserver',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +70,7 @@ ROOT_URLCONF = 'mi_ia_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -154,7 +157,7 @@ if not DEBUG:
 # Configuración de seguridad
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
-SECURE_SSL_REDIRECT = not DEBUG  # Solo redirige HTTPS en producción
+SECURE_SSL_REDIRECT = False  # Solo redirige HTTPS en producción
 CSRF_COOKIE_SECURE = not DEBUG  # Solo permite cookies CSRF en HTTPS en producción
 SESSION_COOKIE_SECURE = not DEBUG  # Solo permite cookies de sesión en HTTPS en producción
 X_FRAME_OPTIONS = 'DENY'  # Evita que tu sitio se cargue en un iframe
@@ -225,14 +228,23 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 # Configuración de Django REST Framework
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-    'DEFAULT_PERMISSION_CLASSES': (
-        os.getenv('DJANGO_DEFAULT_PERMISSION', 'rest_framework.permissions.IsAuthenticated'),
-    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'api.authentication.CustomJWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
 }
 
 # Redirecciones después de login/logout
 LOGIN_REDIRECT_URL = os.getenv('DJANGO_LOGIN_REDIRECT_URL', '/')
 LOGOUT_REDIRECT_URL = os.getenv('DJANGO_LOGOUT_REDIRECT_URL', '/')
+
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(hours=24),  # Aumenta de minutos a horas o días
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=30),  # Esto también puedes ajustarlo
+    "ROTATE_REFRESH_TOKENS": False,
+    "BLACKLIST_AFTER_ROTATION": True,
+}
