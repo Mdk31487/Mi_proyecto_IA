@@ -1,0 +1,1 @@
+# Escena de conexión subconsciente
