@@ -1,0 +1,5 @@
+ZONA 03: Cumbre de los Humanos Gato
+Tipo: Ciudad elevada / Cultura mística felina
+Narrativa: Los Humanos Gato son sabios y rápidos. La ciudad flota sobre pilares mágicos. El jugador puede aprender habilidades como agilidad felina, sigilo y visión nocturna.
+Misiones: Participar en el Torneo de Agilidad, desbloquear la Sala de los 9 Vidas, ganarse la confianza de la Reina Ura-Mii.
+IA: Silenciosa, salvo si el jugador cae o rompe el código del honor.

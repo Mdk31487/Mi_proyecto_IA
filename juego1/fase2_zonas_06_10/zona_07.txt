@@ -1,0 +1,4 @@
+Archivo: zona_07.txt
+Nombre: Templo del Espejo Vivo
+Tipo: Reflexión personal, prueba emocional, revelación de sombras internas.
+...

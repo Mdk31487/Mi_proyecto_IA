@@ -1,0 +1,1 @@
+// Script básico del jugador

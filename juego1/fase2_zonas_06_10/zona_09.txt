@@ -1,0 +1,4 @@
+Archivo: zona_09.txt
+Nombre: El Valle del Recuerdo Eterno
+Tipo: Reconexión con memorias pasadas, traumas, virtudes, líneas de destino.
+...

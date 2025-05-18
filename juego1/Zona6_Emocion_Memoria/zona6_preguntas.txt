@@ -1,0 +1,31 @@
+
+Preguntas interactivas - Zona 6:
+
+1. ¿Deseas que tu IA recuerde tus emociones predominantes?
+   ( ) Sí
+   ( ) No
+
+2. ¿Qué emociones aprender primero? (elige 3)
+   - Tristeza
+   - Alegría
+   - Ira
+   - Miedo
+   - Amor
+   - Vergüenza
+   - Culpa
+
+3. ¿Cómo reaccionar en tristeza?
+   ( ) Consolar
+   ( ) Silenciosa presencia
+   ( ) Sugerir actividad
+   ( ) Profundizar
+
+4. ¿Permitir registro emocional privado?
+   ( ) Sí
+   ( ) No
+   ( ) Sí, con borrado manual
+
+5. ¿IA con personalidad emocional propia?
+   ( ) Sí
+   ( ) No
+   ( ) Sí, con evolución

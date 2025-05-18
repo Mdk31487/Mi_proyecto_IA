@@ -1,0 +1,9 @@
+{
+  "zonas": [
+    {"nombre": "Zona30", "descripcion": "Aldea Ecológica Inteligente"},
+    {"nombre": "Zona31", "descripcion": "Ciudad Etérea"},
+    {"nombre": "Zona32", "descripcion": "Templo Interior"},
+    {"nombre": "Zona33", "descripcion": "Universo Subjetivo"},
+    {"nombre": "Zona34", "descripcion": "Simulación Viva"}
+  ]
+}

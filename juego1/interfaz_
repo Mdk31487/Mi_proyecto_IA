@@ -1,0 +1,54 @@
+# interfaz_simulador_fase3.py
+
+import tkinter as tk
+from tkinter import messagebox, simpledialog
+import json
+
+from conciencia_avatar import reflexionar
+from diario_existencial import registrar_evento, mostrar_diario
+from ia_mentor import IA_Mentor
+from ia_evolucion import evolucionar_mentor
+
+# Cargar zonas desde el mapa
+with open("mapa_fase3.json", "r") as f:
+    mapa = json.load(f)
+
+mentor = IA_Mentor("MentorA", experiencia=10)
+
+class SimuladorApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Simulador Fase 3 - Juego Narrativo Educativo")
+
+        self.zonas_frame = tk.LabelFrame(root, text="Zonas disponibles", padx=10, pady=10)
+        self.zonas_frame.pack(padx=10, pady=10, fill="both", expand=True)
+        
+        for zona in mapa["zonas"]:
+            btn = tk.Button(self.zonas_frame, text=zona["nombre"], command=lambda z=zona: self.ir_a_zona(z))
+            btn.pack(fill="x", padx=5, pady=2)
+
+        self.opciones_frame = tk.Frame(root)
+        self.opciones_frame.pack(pady=10)
+
+        tk.Button(self.opciones_frame, text="Ver Diario", command=self.ver_diario).pack(side="left", padx=5)
+        tk.Button(self.opciones_frame, text="Evolucionar Mentor", command=self.evolucionar).pack(side="left", padx=5)
+
+    def ir_a_zona(self, zona):
+        emocion = simpledialog.askstring("Emoción", f"¿Qué sentiste en {zona['nombre']}?")
+        reflexionar(emocion)
+        registrar_evento(zona["nombre"], emocion)
+        consejo = mentor.dar_consejo()
+        messagebox.showinfo("Consejo del Mentor", consejo)
+
+    def ver_diario(self):
+        eventos = mostrar_diario()
+        messagebox.showinfo("Diario Existencial", eventos)
+
+    def evolucionar(self):
+        evolucionar_mentor(mentor)
+        messagebox.showinfo("Mentor", f"{mentor.nombre} ha evolucionado. Nivel: {mentor.nivel}, Experiencia: {mentor.experiencia}")
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = SimuladorApp(root)
+    root.mainloop()

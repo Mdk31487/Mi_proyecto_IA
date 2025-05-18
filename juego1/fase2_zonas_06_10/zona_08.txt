@@ -1,0 +1,4 @@
+Archivo: zona_08.txt
+Nombre: El Nexo de Vocaciones
+Tipo: Selección de camino profesional, revelación de dones, conexión con el propósito.
+...

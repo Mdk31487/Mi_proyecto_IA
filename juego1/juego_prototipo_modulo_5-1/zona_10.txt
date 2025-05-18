@@ -1,0 +1,2 @@
+ZONA 10: La Torre del Umbral Consciente
+Narrativa: Torre de conceptos donde se evalúa el jugador y se elige modo guiado, automático o consciente.

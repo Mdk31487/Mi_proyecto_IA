@@ -1,0 +1,6 @@
+ZONA 13: El Cañón de los Ecos Rojos
+Tipo de zona: Cañón / Semidesierto / Mística
+Narrativa: Tras cruzar las praderas malditas del sur, el camino te lleva a un cañón seco y de paredes carmesí. Todo sonido reverbera... incluso los pensamientos no dichos.
+Misiones: Explorar el cañón, recoger cristales del susurro, liberar ecos antiguos, derrotar al Guardián del Silencio.
+IA: Solo aparece si el jugador se desorienta o cae en confusión mental. Observa silenciosamente.
+Evaluación interna: Escuchar antes de atacar, paciencia, comprensión del pasado. No se informa al jugador de la evaluación.

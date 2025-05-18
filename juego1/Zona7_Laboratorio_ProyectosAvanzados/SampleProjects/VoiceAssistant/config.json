@@ -1,0 +1,4 @@
+{
+  "assistant_name": "TuAsistente",
+  "functions": ["qa", "device_control", "schedule"]
+}

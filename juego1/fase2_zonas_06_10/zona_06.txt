@@ -1,0 +1,4 @@
+Archivo: zona_06.txt
+Nombre: Praderas de Umvar
+Tipo: Exploración, introducción de habilidades emocionales y de sincronización con la IA.
+...

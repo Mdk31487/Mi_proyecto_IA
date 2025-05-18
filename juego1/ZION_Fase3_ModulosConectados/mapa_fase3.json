@@ -1,0 +1,29 @@
+{
+  "zonas": [
+    {
+      "nombre": "Zona30_Aldea_Ecológica_Inteligente",
+      "descripcion": "Convivencia con la naturaleza.",
+      "conexion": ["Zona31_LaCiudad_Eterea", "Zona32_Universo_Subjetivo"]
+    },
+    {
+      "nombre": "Zona31_LaCiudad_Eterea",
+      "descripcion": "Metrópoli ética gobernada por IA.",
+      "conexion": ["Zona30_Aldea_Ecológica_Inteligente", "Zona33_LaFragua_Interdimensional"]
+    },
+    {
+      "nombre": "Zona32_Universo_Subjetivo",
+      "descripcion": "Entorno que reacciona a emociones.",
+      "conexion": ["Zona30_Aldea_Ecológica_Inteligente"]
+    },
+    {
+      "nombre": "Zona33_LaFragua_Interdimensional",
+      "descripcion": "Forja y transmutación de saber.",
+      "conexion": ["Zona31_LaCiudad_Eterea", "Zona34_Refugio_Del_Eterno_Presente"]
+    },
+    {
+      "nombre": "Zona34_Refugio_Del_Eterno_Presente",
+      "descripcion": "Sabiduría en el presente absoluto.",
+      "conexion": ["Zona33_LaFragua_Interdimensional"]
+    }
+  ]
+}

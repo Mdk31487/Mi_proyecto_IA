@@ -1,0 +1,5 @@
+ZONA 01: Valle de los Orcos
+Tipo: Región montañosa salvaje / territorio enemigo
+Narrativa: Un valle maldito donde los orcos han construido fortalezas de hueso y fuego. Esta es la primera prueba real de fuerza para el jugador. Aquí se mide la actitud guerrera y la capacidad de liderazgo. 
+Misiones: Derrotar al Jefe Grom'Kar, recuperar la piedra rúnica, rescatar al prisionero errante.
+IA: Activa solo en momentos clave para advertencias tácticas.

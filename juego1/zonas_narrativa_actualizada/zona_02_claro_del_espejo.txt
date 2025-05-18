@@ -1,0 +1,5 @@
+ZONA 02: Claro del Espejo
+Tipo: Bosque sagrado / Zona de reflexión
+Narrativa: Un bosque mágico donde los árboles murmuran memorias y los lagos reflejan el alma. El jugador debe enfrentarse a versiones ilusorias de sí mismo.
+Misiones: Encontrar el Espejo del Origen, superar la prueba de la sinceridad, evitar la corrupción del reflejo oscuro.
+IA: Presente como guía constante que traduce símbolos antiguos.

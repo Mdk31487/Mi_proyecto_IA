@@ -1,0 +1,23 @@
+
+Preguntas interactivas para el jugador:
+
+1. ¿Cuál será la función principal del robot?
+   [ ] Asistente doméstico
+   [ ] Compañero emocional
+   [ ] Agente de seguridad
+   [ ] Robot explorador
+   [ ] Otro (especificar)
+
+2. ¿Qué capacidades físicas deseas que tenga primero?
+   [ ] Brazos funcionales
+   [ ] Movimiento autónomo
+   [ ] Cámaras con visión aumentada
+   [ ] Comunicación por voz y gesto
+
+3. ¿Cómo deseas que interactúe contigo?
+   [ ] Hablar como un amigo
+   [ ] Ser profesional y preciso
+   [ ] Mezcla equilibrada
+   [ ] Otro (especificar)
+
+4. ¿Quieres que este robot funcione solo dentro del juego o también fuera (mundo real)?
