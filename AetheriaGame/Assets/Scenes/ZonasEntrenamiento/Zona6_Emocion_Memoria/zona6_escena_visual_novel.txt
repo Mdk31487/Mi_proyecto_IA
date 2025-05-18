@@ -1,0 +1,7 @@
+
+Zona 6: Núcleo de Empatía de la IA Tobótica
+
+Escena exclusiva en consola/app para configurar emociones:
+- Conservación de memoria emocional
+- Entrenamiento interactivo de respuestas
+- Registro de 'memoria_emocional.json'

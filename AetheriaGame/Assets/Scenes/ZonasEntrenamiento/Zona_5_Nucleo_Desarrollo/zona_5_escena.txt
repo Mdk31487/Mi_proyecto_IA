@@ -1,0 +1,21 @@
+
+Zona 5: Núcleo de Desarrollo y Prototipado
+
+Estilo: Laboratorio futurista con hologramas, bancos de trabajo, y cuerpo robótico DR-AK en el centro.
+
+Personajes:
+- Carlos G. (ingeniero, con bata blanca y tablet)
+- IA (avatar holográfico, asistente)
+- DR-AK (robot base sin funciones completas)
+
+[Inicio de escena - Mañana]
+IA: Carlos, bienvenido al Núcleo de Desarrollo. Este es DR-AK, tu primer prototipo base.
+Aquí definiremos sus funciones, personalidad expandida y habilidades físicas.
+
+Carlos G.: Entiendo. ¿Qué necesito para empezar?
+
+IA: Te haré una serie de preguntas. Según tus respuestas, crearé:
+- El sistema de control principal
+- Las funciones clave del cuerpo
+- Su rol inicial
+- Nueva fase de personalidad y memoria
